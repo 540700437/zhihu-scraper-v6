@@ -1,0 +1,27 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- 环境与密钥 ----------
+.env
+.env.*
+!.env.example
+
+# ---------- 抓取产物（含真实抓取内容，不入版本库） ----------
+*.db
+*.db-shm
+*.db-wal
+exports/
+logs/
+error_*.png
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

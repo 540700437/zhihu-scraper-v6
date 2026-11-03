@@ -1,0 +1,11 @@
+playwright>=1.40
+beautifulsoup4>=4.12
+lxml>=5.0
+requests>=2.31
+urllib3>=2.0
+pydantic-settings>=2.0
+
+# ---------- 可选依赖：导出 Excel / Parquet 时才需要 ----------
+# openpyxl>=3.1
+# pyarrow>=14.0
+# pandas>=2.1
